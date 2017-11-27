@@ -11,7 +11,6 @@ def line(katz_deli)
       line << "#{katz_deli[counter]}"
       counter+=1
     end
-    puts line
+    puts line;
   end
 end
-
