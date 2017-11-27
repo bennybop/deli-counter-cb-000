@@ -9,7 +9,7 @@ def line(katz_deli)
     counter = 0
     until counter == katz_deli.length
       line << "#{counter+1}. #{katz_deli[counter]}"
-      counter+=1
+      counter += 1
     end
     puts line;
   end
