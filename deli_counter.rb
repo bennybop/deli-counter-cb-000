@@ -8,7 +8,7 @@ def line(katz_deli)
     line = "The line is currently:"
     counter = 0
     until counter == katz_deli.length
-      line << "#{katz_deli[counter]}"
+      line << "#{counter+1}. #{katz_deli[counter]}"
       counter+=1
     end
     puts line;
